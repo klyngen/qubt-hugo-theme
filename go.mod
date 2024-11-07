@@ -1,3 +1,3 @@
-module github.com/chrede88/qubt
+module github.com/klyngen/qubt-hugo-theme
 
 go 1.22.2

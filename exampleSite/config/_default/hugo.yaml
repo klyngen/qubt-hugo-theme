@@ -11,5 +11,5 @@ title: 'Qubt Theme'
 
 enableEmoji: true
 disableKinds: ['taxonomy', 'term']
-languageCode: 'en-us'
+languageCode: 'nb-no'
 enableRobotsTXT: true

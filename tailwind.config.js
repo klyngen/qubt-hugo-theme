@@ -7,6 +7,9 @@ module.exports = {
     "./assets/**/*.js",
   ],
   theme: {
+    colors: {
+      neutral: '#f8f1e3'
+    },
     extend: {
       keyframes: {
         'open-menu': {
@@ -68,7 +71,7 @@ module.exports = {
   ],
   safelist: [
     {
-      pattern: /grid-cols-.+/, 
+      pattern: /grid-cols-.+/,
     },
   ]
 }
