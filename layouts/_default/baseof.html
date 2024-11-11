@@ -1,20 +1,14 @@
 <!doctype html>
-{{- $lang_code := site.LanguageCode | default "en-us" -}}
+{{- $lang_code := site.LanguageCode | default "nb-no" -}}
 <html lang="{{ $lang_code }}">
   <head>
     {{ partial "head" . }}
   </head>
-  <body class="flex h-screen flex-col justify-between bg-neutral-100 dark:bg-neutral-800">
+  <body class="flex h-screen flex-col justify-between bg-light dark:bg-dark">
     <div>
-      <header class="sticky top-0 z-10 bg-neutral-100 dark:bg-neutral-800">
-        {{ partial "navbar" . }}
-      </header>
-      <main>
-        {{ block "main" . }}{{ end }}
-      </main>
+      <header class="sticky top-0 z-10 bg-light dark:bg-dark">{{ partial "navbar" . }}</header>
+      <main>{{ block "main" . }}{{ end }}</main>
     </div>
-    <footer>
-      {{ partial "footer" . }}
-    </footer>
+    <footer>{{ partial "footer" . }}</footer>
   </body>
 </html>

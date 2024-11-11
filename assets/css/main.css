@@ -4,14 +4,14 @@
 @tailwind components;
 @tailwind utilities;
 
-.link {
-  @apply m-1 h-10 w-10 transform bg-transparent transition duration-300 ease-out hover:scale-125;
-}
+/* .link { */
+/*   @apply m-1 h-10 w-10 transform bg-dark transition duration-300 ease-out hover:scale-125; */
+/* } */
 
-.link_svg {
-  @apply rounded-full fill-slate-700 dark:fill-slate-50;
-}
+/* .link_svg { */
+/*   @apply fill-slate dark:fill-slate-50 rounded-full; */
+/* } */
 
-.toggle-btn {
-  @apply [&>div::after]:translate-y-0 [&>div::after]:-rotate-45 [&>div::before]:translate-y-0 [&>div::before]:rotate-45 [&>div]:rotate-[720deg] [&>div]:bg-transparent;
-}
+/* .toggle-btn { */
+/*   @apply [&>div]:bg-transparent [&>div::after]:translate-y-0 [&>div::after]:-rotate-45 [&>div::before]:translate-y-0 [&>div::before]:rotate-45 [&>div]:rotate-[720deg]; */
+/* } */

@@ -8,7 +8,12 @@ module.exports = {
   ],
   theme: {
     colors: {
-      neutral: '#f8f1e3'
+      light: '#f8f1e3',
+      dark: '#243F4d',
+      grey: '#d8dcd3',
+      primary: '#e6c08d',
+      tetriary: '#7e7972',
+      green: '#9Dac86'
     },
     extend: {
       keyframes: {
